@@ -268,3 +268,108 @@ font-style: normal;
 font-weight: 800;
 line-height: 150%
 }
+.fly{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.right{
+    margin-left: 50px;
+}
+
+.lets{
+    color: #313EF7;
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 900;
+}
+.online{
+    color: #030303;
+font-family: Montserrat;
+font-size: 32px;
+font-weight: 700;
+margin-top: 10px;
+}
+.text__img{
+    margin-top: 40px;
+}
+.book{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+.papular{
+    display: flex;
+padding: 50px 165px;
+flex-direction: column;
+align-items: flex-start;
+    background-color: #010223;
+}
+.tick{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 40px;
+font-weight: 700;
+letter-spacing: 0.6px;
+text-transform: capitalize;
+}
+.been{
+    color: rgba(255, 255, 255, 0.574);
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+margin-top: 15px;
+}
+
+.city__systm{
+    background-color:rgba(248, 242, 242, 0.558);
+}
+.contant {
+    color: #011736;
+font-family: Montserrat;
+font-size: 40px;
+font-weight: 700;
+letter-spacing: 0.6px;
+text-transform: capitalize;
+text-align: center;
+padding-top: 100px;
+padding-bottom: 40px;
+}
+
+.month {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.city {
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+    width: 282px;
+    border-radius: 213px;
+    height: 420px;
+padding-bottom: 0px;
+box-shadow: 0px 100px 200px 0px rgba(1, 23, 54, 0.05);
+
+
+}
+
+.city__img {
+   margin-top: -20px;
+    border-radius: 50%;
+}
+
+.city__title {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.city__text {
+    color: #888;
+}
