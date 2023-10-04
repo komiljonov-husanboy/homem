@@ -194,24 +194,43 @@ align-self: stretch;
 
 
 .btn{
-width: 200px;
-color: #FFF;
-text-align: center;
-font-family: Montserrat;
-font-size: 16px;
-font-style: normal;
-font-weight: 600;
-display: flex;
-border: none;
-padding: 14px 45px;
-align-items: flex-start;
-border-radius: 56px;
-background: #313EF7;
-margin: 0 auto;
-margin-top: 24px;
-box-shadow: 0px 10px 14px 0px rgba(49, 62, 247, 0.25);
-
-}
+    width: 200px;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    display: flex;
+    border: none;
+    padding: 14px 45px;
+    align-items: flex-start;
+    border-radius: 56px;
+    background: #313EF7;
+    margin: 0 auto;
+    margin-top: 24px;
+    box-shadow: 0px 10px 14px 0px rgba(49, 62, 247, 0.25);
+    
+    }
+    
+.btnn{
+    width: 200px;
+    color: #FFF;
+    text-align: start;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    display: flex;
+    border: none;
+    padding: 14px 45px;
+    align-items: flex-start;
+    border-radius: 56px;
+    background: #313EF7;
+    margin-top: 24px;
+    box-shadow: 0px 10px 14px 0px rgba(49, 62, 247, 0.25);
+    
+    }
 .eco__inner{
     margin-top: 10px;
     margin-left: 10px;
@@ -325,7 +344,9 @@ margin-top: 15px;
 }
 
 .city__systm{
-    background-color:rgba(248, 242, 242, 0.558);
+    background-color:rgba(248, 242, 242, 0.828);
+    margin-bottom: -100px;
+    padding: 100px;
 }
 .contant {
     color: #011736;
@@ -354,7 +375,7 @@ padding-bottom: 40px;
     border-radius: 213px;
     height: 420px;
 padding-bottom: 0px;
-box-shadow: 0px 100px 200px 0px rgba(1, 23, 54, 0.05);
+box-shadow: 0px 100px 200px 0px rgba(2, 30, 68, 0.05);
 
 
 }
@@ -372,4 +393,233 @@ box-shadow: 0px 100px 200px 0px rgba(1, 23, 54, 0.05);
 
 .city__text {
     color: #888;
+}
+.feed{
+    margin-left: -90px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.span{
+    display: flex;
+    
+}
+.feed__list{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+/* 
+
+.feed__item{
+    color: #011736;
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 600;
+}
+
+.feed__text{
+    color: #1B1B1C;
+font-family: Montserrat;
+font-size: 18px;
+font-style: italic;
+font-weight: 100;
+} */
+.vacing{
+margin-top: -90;  
+  margin-left: -190px;
+}
+.blue{
+    margin-top: -100px;
+    
+}
+.feed__text{
+    color: #313EF7;
+text-align: center;
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 600;
+text-align: center;
+margin-top: 100px;
+}
+.feed__back{
+    color: #011736;
+text-align: center;
+font-family: Montserrat;
+font-size: 40px;
+font-weight: 700;
+text-transform: capitalize;
+text-align: center;
+}
+.make{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+.with__us{
+    width: 262.5px;
+height: 390px;
+flex-shrink: 0;
+border-radius: 200px;
+border: 20px solid rgba(255, 255, 255, 0.30);
+
+
+}
+.with__us:nth-child(1){
+    margin-top: -60px;
+    }
+    .with__us:nth-child(3){
+        margin-top: -60px;
+        }
+        .maje__title{
+           margin-top: 100px;
+           margin-bottom: 40px;
+           color: #011736;
+text-align: center;
+font-family: Montserrat;
+font-size: 40px;
+font-weight: 700;
+letter-spacing: 0.6px;
+        }
+.input{
+            display: flex;
+            justify-content: center;
+align-items: center;
+text-align: center;
+margin: 0 auto;
+display: flex;
+padding: 11px 11px 11px 20px;
+align-items: center;
+gap: 100px;
+border-radius: 150px;
+background: #FFF;
+box-shadow: 0px 100px 200px 0px rgba(1, 23, 54, 0.10);
+
+        }
+        .inp_1{
+            display: flex;
+padding: 11px 11px 11px 20px;
+align-items: center;
+            border-radius: 150px;
+background: #FFF;
+box-shadow: 0px 100px 200px 0px rgba(1, 23, 54, 0.10);
+border: none;
+        }
+        .inp_2{
+            color: #FFF;
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            display: flex;
+padding: 10px 25px;
+align-items: flex-start;
+border-radius: 56px;
+background: #313EF7;
+border: none;
+        }
+        .letest{
+            text-align: center;
+            margin-top: 100px;
+            display: flex;
+padding: 100px 453px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+margin-left: -100px;
+        }
+        .lets{
+            background: rgba(49, 62, 247, 0.05);
+
+        }
+        .get{
+            width: 534px;
+color: #011736;
+text-align: center;
+font-family: Montserrat;
+font-size: 40px;
+font-weight: 700;
+letter-spacing: 0.6px;
+text-transform: capitalize;
+margin-bottom: 40px;
+margin-left: -50px;
+}
+
+.flat__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flat__section{
+    display: flex;
+height: 454px;
+padding: 30px 60px;
+flex-direction: column;
+align-items: flex-start;
+background-color: #010223;
+}
+.flat__item{
+    width: 100px;
+    text-align: start;
+}
+.there{
+    text-align: start;
+    width: 300px;
+color: #A7A7A7;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
+}
+.flat__item a{
+    color: #A7A7A7;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
+text-align: start;
+line-height: 34px; 
+text-decoration: none;
+}
+.bold{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; 
+text-transform: capitalize;
+}
+.imgh{
+    margin-top: 110px;
+    margin-bottom: 10px;
+}
+.social{
+    text-align: start;
+    margin-left: -30px;
+}
+span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+}
+p{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.28px;
+}
+hr{
+    width: 1200px;
+height: 0px;
+stroke-width: 3px;
+stroke: rgba(255, 255, 255, 0.10);
 }
