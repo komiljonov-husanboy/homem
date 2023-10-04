@@ -231,6 +231,15 @@ align-self: stretch;
     box-shadow: 0px 10px 14px 0px rgba(49, 62, 247, 0.25);
     
     }
+    .eco__item p{
+        color: #AEB5BF;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 100;
+line-height: 28px;
+
+    }
 .eco__inner{
     margin-top: 10px;
     margin-left: 10px;
@@ -240,6 +249,9 @@ align-self: stretch;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.line__img{
+   margin-top: 30px;
 }
 .feat__item{
     margin-top: 40px;
@@ -253,6 +265,9 @@ border-radius: 100px;
 background: #FFF;
 box-shadow: 0px 100px 200px 0px rgba(1, 23, 54, 0.10);
 border-radius: 120px;
+letter-spacing: -0.28px;
+line-height: 32px;
+
 
 }
 .feat__item:nth-child(2){
@@ -381,7 +396,7 @@ box-shadow: 0px 100px 200px 0px rgba(2, 30, 68, 0.05);
 }
 
 .city__img {
-   margin-top: -20px;
+   margin-top: -28px;
     border-radius: 50%;
 }
 
@@ -558,6 +573,11 @@ padding: 30px 60px;
 flex-direction: column;
 align-items: flex-start;
 background-color: #010223;
+background-image: url(/img/Group\ \(10\).png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
 }
 .flat__item{
     width: 100px;
@@ -622,4 +642,17 @@ hr{
 height: 0px;
 stroke-width: 3px;
 stroke: rgba(255, 255, 255, 0.10);
+}
+.scrol__img{
+  
+    width: 70px;
+    height: 70px;
+    text-align: end;
+    align-items: end;
+    margin-left: 1200px;
+    position: fixed;
+    bottom: 100px;
+    left: 10;
+    z-index: 999;
+    transition: 1.5s;
 }
